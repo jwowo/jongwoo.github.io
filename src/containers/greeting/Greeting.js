@@ -37,6 +37,24 @@ export default function Greeting() {
               >
                 {greeting.subTitle}
               </p>
+              <p
+                className={
+                  isDark
+                    ? "dark-mode greeting-text-p"
+                    : "greeting-text-p subTitle"
+                }
+              >
+                {greeting.desc_1}
+              </p>
+              <p
+                className={
+                  isDark
+                    ? "dark-mode greeting-text-p"
+                    : "greeting-text-p subTitle"
+                }
+              >
+                {greeting.desc_2}
+              </p>
               <SocialMedia />
               <div className="button-greeting-div">
                 <Button text="Contact me" href="#contact" />

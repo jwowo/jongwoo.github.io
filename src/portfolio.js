@@ -14,11 +14,19 @@ const greeting = {
   username: "JongWoo Han",
   title: "Hi all, I'm JongWoo",
   subTitle: [
-    emoji("A Research Assistant 🚀  in NDSLab(Network & Data Science Lab), Dept. of Software, 🚀 SangMyung University, South Korea 🚀"),
+    emoji("A Research Assistant 🚀  in NDSLab,"),
   //desc: emoji("Network & Data Science Lab, Dept. of Software, 🚀"),
   //desc: emoji("SangMyung University, South Korea 🚀"),
     //emoji("SangMyung University, South Korea 🚀"),
   ],
+
+  desc_1:[
+    emoji("🚀 Network & Data Science Lab 🚀 ")
+  ],
+  desc_2:[
+    emoji("🚀 SangMyung University, South Korea. 🚀")
+  ],
+
   resumeLink:
     "https://drive.google.com/file/d/1JpLELaggnAHILUE2ijjSS5qDsUc09QnB/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
