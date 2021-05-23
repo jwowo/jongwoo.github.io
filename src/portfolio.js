@@ -14,7 +14,7 @@ const greeting = {
   username: "JongWoo Han",
   title: "Hi all, I'm JongWoo",
   subTitle: emoji(
-    "A Research Assistant 🚀  in NDSLab(Network & Data Science Lab) Dept. of Software, SangMyung University, South Korea"
+    "A Research Assistant 🚀  in NDSLab\nNetwork & Data Science Lab, Dept. of Software, \nSangMyung University, South Korea"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1JpLELaggnAHILUE2ijjSS5qDsUc09QnB/view?usp=sharing",
@@ -39,15 +39,13 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "Research Interest",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Data Science"),
+    emoji("⚡ NLP(Natural Language Processing"),
+    emoji("⚡ Machin Learning"),
+    emoji("⚡ Social Network"),
+    emoji("⚡ Data Analysis")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -84,10 +82,10 @@ const educationInfo = {
       logo: require("./assets/images/SMU_logo.jpg"),
       subHeader: "Bachelor of Information Security",
       duration: "March 2015 - Feburuary 2021",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      desc: "Participated in 2 projects.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Game bot Detection on Game 'AION'",
+        "Object Detection for Visually Impaired People"
       ]
     },
 
@@ -97,7 +95,7 @@ const educationInfo = {
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
@@ -121,29 +119,22 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      role: "Intern, Research Asistant",
+      company: "Canvass Labs",
+      companylogo: require("./assets/images/CanvassLabs_logo.png"),
+      date: "September 2020 – Present",
+      desc: "La Jolla, CA"
+      //descBullets: [
+      //  "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //  "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      //]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Intern, Research Assistant",
+      company: "NDSLab",
+      companylogo: require("./assets/images/SMU_logo.jpg"),
+      date: "July 2020 – Present",
+      desc: "Network Science Lab, SangMyung University, South Korea"
     }
   ]
 };
