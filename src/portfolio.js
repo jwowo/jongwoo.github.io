@@ -13,9 +13,9 @@ const illustration = {
 const greeting = {
   username: "JongWoo Han",
   title: "Hi all, I'm JongWoo",
-  subTitle: emoji("A Research Assistant 🚀  in NDSLab,"),
-  desc: emoji("Network & Data Science Lab, Dept. of Software, 🚀"),
-  desc: emoji("SangMyung University, South Korea 🚀"),
+  subTitle: emoji("A Research Assistant 🚀  in NDSLab,  Network & Data Science Lab, Dept. of Software, 🚀  SangMyung University, South Korea 🚀"),
+  //desc: emoji("Network & Data Science Lab, Dept. of Software, 🚀"),
+  //desc: emoji("SangMyung University, South Korea 🚀"),
   resumeLink:
     "https://drive.google.com/file/d/1JpLELaggnAHILUE2ijjSS5qDsUc09QnB/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -143,38 +143,27 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  showGithubProfile: "True", // Set true or false to show Contact profile using Github, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: "",
+      projectName: "",
+      projectDesc: "",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "",
+          url: ""
         }
         //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
+      ],
     }
   ],
   display: false // Set false to hide this section, defaults to true
