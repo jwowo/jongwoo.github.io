@@ -122,7 +122,7 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Intern, Research Asistant",
+      role: "Intern, Research Assistant",
       company: "Canvass Labs",
       companylogo: require("./assets/images/Canvass_logo.jpg"),
       date: "September 2020 – Present",
@@ -147,7 +147,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "True", // Set true or false to show Contact profile using Github, defaults to true
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -235,14 +235,14 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "Post articles what I learned to orgainze for myself.",
+    "Post articles what I learned and studied to orgainze for myself.",
 
   blogs: [
     {
       url: "https://jwowo97.tistory.com/",
-      title: "Jongwoo Tistory",
+      title: "Jongwoo's Tistory",
       description:
-        "Personal blog to post what I learned."
+        "Personal blog to post what I learned and studied."
     }
   ],
   display: true // Set false to hide this section, defaults to true
