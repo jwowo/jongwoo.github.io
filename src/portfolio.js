@@ -14,10 +14,10 @@ const greeting = {
   username: "JongWoo Han",
   title: "Hi all, I'm JongWoo",
   subTitle: [
-    emoji("A Research Assistant 🚀  in NDSLab, Network & Data Science Lab, Dept. of Software, 🚀 SangMyung University, South Korea 🚀"),
+    emoji("A Research Assistant 🚀  in NDSLab(Network & Data Science Lab), Dept. of Software, 🚀 SangMyung University, South Korea 🚀"),
   //desc: emoji("Network & Data Science Lab, Dept. of Software, 🚀"),
   //desc: emoji("SangMyung University, South Korea 🚀"),
-    emoji("SangMyung University, South Korea 🚀"),
+    //emoji("SangMyung University, South Korea 🚀"),
   ],
   resumeLink:
     "https://drive.google.com/file/d/1JpLELaggnAHILUE2ijjSS5qDsUc09QnB/view?usp=sharing",
@@ -137,7 +137,7 @@ const workExperiences = {
       company: "NDSLab",
       companylogo: require("./assets/images/SMU_logo.jpg"),
       date: "July 2020 – Present",
-      desc: "Network Science Lab, SangMyung University, South Korea"
+      desc: "Network & Data Science Lab, SangMyung University, South Korea"
     }
   ]
 };
