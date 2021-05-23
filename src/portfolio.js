@@ -13,9 +13,9 @@ const illustration = {
 const greeting = {
   username: "JongWoo Han",
   title: "Hi all, I'm JongWoo",
-  subTitle: emoji(
-    "A Research Assistant 🚀  in NDSLab\nNetwork & Data Science Lab, Dept. of Software, \nSangMyung University, South Korea"
-  ),
+  subTitle: emoji("A Research Assistant 🚀  in NDSLab,"),
+  subTitle: emoji("Network & Data Science Lab, Dept. of Software"),
+  subTitle: emoji("SangMyung University, South Korea"),
   resumeLink:
     "https://drive.google.com/file/d/1JpLELaggnAHILUE2ijjSS5qDsUc09QnB/view?usp=sharing",
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -121,7 +121,7 @@ const workExperiences = {
     {
       role: "Intern, Research Asistant",
       company: "Canvass Labs",
-      companylogo: require("./assets/images/CanvassLabs_logo.png"),
+      companylogo: require("./assets/images/Canvasslabs.jpg"),
       date: "September 2020 – Present",
       desc: "La Jolla, CA"
       //descBullets: [
@@ -143,7 +143,7 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -235,7 +235,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -243,20 +243,14 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "Post articles what I learned to orgainze for myself.",
 
   blogs: [
     {
       url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      title: "Jongwoo Tistory",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Personal blog to post what I learned."
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -278,7 +272,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -291,7 +285,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
