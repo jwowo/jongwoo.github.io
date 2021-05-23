@@ -13,7 +13,7 @@ const illustration = {
 const greeting = {
   username: "JongWoo Han",
   title: "Hi all, I'm JongWoo",
-  subTitle: emoji("A Research Assistant 🚀  in NDSLab,  Network & Data Science Lab, Dept. of Software, 🚀  SangMyung University, South Korea 🚀"),
+  subTitle: emoji("A Research Assistant 🚀  in NDSLab, Network & Data Science Lab, Dept. of Software, 🚀 SangMyung University, South Korea 🚀"),
   //desc: emoji("Network & Data Science Lab, Dept. of Software, 🚀"),
   //desc: emoji("SangMyung University, South Korea 🚀"),
   resumeLink:
@@ -121,7 +121,7 @@ const workExperiences = {
     {
       role: "Intern, Research Asistant",
       company: "Canvass Labs",
-      companylogo: require("./assets/images/Canvasslabs.jpg"),
+      companylogo: require("./assets/images/CL_logo.png"),
       date: "September 2020 – Present",
       desc: "La Jolla, CA"
       //descBullets: [
